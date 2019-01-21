@@ -169,3 +169,15 @@ def player_numbers(team)
   end
   numbers.sort
 end
+
+
+def player_stats(name)
+   game_hash.each do |location, team_data|
+    team_data[:players].each do |name, attribute|
+      if name.to_s == player
+        return attribute
+      end
+    end
+  end
+end
+    
