@@ -158,7 +158,7 @@ def team_names
 end
 
 
-def player_numbers
+def player_numbers(team)
   numbers = []
   game_hash.collect do |location, team_data|
     if team_data[:team_name] == team
