@@ -123,7 +123,7 @@ def num_points_scored
   points
 end
 
-
+num_points_scored
 
 
 
