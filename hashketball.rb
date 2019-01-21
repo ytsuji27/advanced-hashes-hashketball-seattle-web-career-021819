@@ -163,7 +163,7 @@ def player_numbers(team)
   game_hash.collect do |location, team_data|
     if team_data[:team_name] == team
       team_data[:players].collect do |name, attribute|
-        number << attribute[:number]
+        numbers << attribute[:number]
       end
     end
   end
