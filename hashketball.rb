@@ -168,5 +168,5 @@ def player_numbers
       end
     end
   end
+  numbers.sort
 end
-player_numbers
