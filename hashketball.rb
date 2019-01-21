@@ -165,7 +165,7 @@ def player_numbers
         binding.pry
         attribute[:number]
       end
-    end
+
   end
 end
 player_numbers
