@@ -115,6 +115,7 @@ def num_points_scored
   game_hash.each do |location, team_data|
     team_data[:players].each do |name, attribute|
       binding.pry
+      name.key
       if name == player
         points = attribute[:points]
       end
