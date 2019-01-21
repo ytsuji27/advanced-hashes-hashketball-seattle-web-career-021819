@@ -102,6 +102,17 @@ def game_hash
         :steals => 1,
         :blocks => 1,
         :slam_dunks => 0
+      },
+      :"Brendan Haywood" => {
+        :number => 33,
+        :shoe => 15,
+        :points => 6,
+        :rebounds => 12,
+        :assists => 12,
+        :steals => 22,
+        :blocks => 5,
+        :slam_dunks => 12
+      },
       }
     }
   }
