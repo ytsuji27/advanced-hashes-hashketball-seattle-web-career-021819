@@ -153,7 +153,7 @@ end
 
 def team_names
   game_hash.collect do |location, team_data|
-    binding pry
+    binding.pry
     team_data[:team_names]
   end
 end
