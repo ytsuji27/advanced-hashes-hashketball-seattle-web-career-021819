@@ -152,9 +152,11 @@ end
 
 
 def team_names
+  names = []
   game_hash.collect do |location, team_data|
-    team_data[:team_names]
+    names << team_data[:team_names]
   end
+  names
 end
 
 
