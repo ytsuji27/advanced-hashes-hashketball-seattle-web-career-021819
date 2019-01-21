@@ -159,13 +159,14 @@ end
 
 
 def player_numbers
+  numbers = []
   game_hash.collect do |location, team_data|
-#    if team_data[:team_name] == team
+    if team_data[:team_name] == team
       team_data[:players].collect do |name, attribute|
         binding.pry
-        attribute[:number]
+        number << attribute[:number]
       end
-
+    end
   end
 end
 player_numbers
