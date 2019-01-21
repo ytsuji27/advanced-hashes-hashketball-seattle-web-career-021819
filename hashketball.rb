@@ -122,7 +122,6 @@ def num_points_scored(player)
   points
 end
 
-num_points_scored
 
 
 
