@@ -157,3 +157,13 @@ def team_names
   end
 end
 
+
+def player_numbers(team)
+  game_hash.collect do |location, team_data|
+    if team_data[:team_name] == team
+      team_data.collect do |name, attribute|
+        attribute[:number]
+      end
+    end
+  end
+end
